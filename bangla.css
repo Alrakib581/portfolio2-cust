@@ -1,0 +1,205 @@
+/* font-family: 'Fira Sans', sans-serif;
+font-family: 'Odibee Sans', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    outline: 0;
+}
+.container{
+    background-image: url(./img/kir-simakov-2nC0CkG3Ygo-unsplash.jpg);
+    min-height: 100vh;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 80px;
+    margin-left: 1rem;
+}
+.main-logo{
+    margin:1.8rem;
+}
+nav{
+    margin: 2rem;
+
+}
+nav ul li{
+    display: inline-block;
+
+}
+nav ul li a{
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #E93B81;
+    font-family:'Mina', sans-serif; 
+}
+nav ul li a:hover{
+    color: #fff;
+    transition: 0.3s;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+section{
+   text-align: center;
+   margin: 50px auto;
+}
+.heading{
+    margin: 1rem;
+}
+.heading h1{
+    font-size:2.5rem;
+    font-family: 'Roboto',sans-serif;
+    color: #fff;
+    font-family:'Mina', sans-serif; 
+
+}
+.sub-heading{
+    margin: 1rem;
+}
+.sub-heading h2{
+    font-size: 2rem;
+    font-family:'Roboto Condensed', sans-serif;
+    color: #fff;
+    font-family:'Mina', sans-serif; 
+}
+.text p{
+    font-size: 1.5rem;
+    font-family:'Roboto Condensed', sans-serif;
+    color:#FDFAF6;
+    font-family:'Mina', sans-serif; 
+}
+
+footer{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    margin-top: 105px;
+    margin-left: 50px;
+    font-family:'Mina', sans-serif; 
+}
+.social-icon{
+    margin-top: 110px;
+    margin-right: 50px;
+    font-size: 1.5rem;
+}
+i{
+    padding-right: 10px;
+}
+
+
+/* Responsiv start here  */
+
+@media (max-width:992px){
+    
+    
+
+}
+@media (max-width:768px){
+
+   header{
+       flex-direction: column;
+       text-align: center;
+    
+   }
+   nav{
+       margin-top: 0px;
+   }
+   nav ul li{
+       display: block;
+       margin:0.3rem;
+       background-color:#FF6768;
+       padding: 0.3rem;
+       border-radius: 1rem;
+   }
+   nav ul li:hover{
+       background-color: #6B778D;
+       transition: 0.5s;
+   }
+   nav ul li a{
+        font-size: 1.5rem;
+        color: #fff;
+   }
+    .heading{
+        margin: 0.5rem;
+    }
+    .heading h1{
+        font-size:2.5rem;
+        font-family:'Mina', sans-serif;
+    }
+    .sub-heading h2{
+        font-size: 2rem;
+        font-family:'Mina', sans-serif;
+    }
+    .text p{
+        font-size: 1.5rem;
+        
+    }    
+}
+@media (max-width:600px){
+   
+        
+    header{
+        flex-direction: column;
+        text-align: center;
+     
+    }
+    nav{
+        margin-top: 0px;
+    }
+    nav ul li{
+        display: block;
+        margin:0.3rem;
+        padding: 0.2rem;
+        border-radius: 0.8rem;
+    }
+    nav ul li a{
+         font-size: 1.5rem;
+         
+    }
+     .heading{
+         margin: 0.5rem;
+     }
+     .heading h1{
+         font-size:2rem;
+         font-family: 'Mina', sans-serif;
+     }
+     .sub-heading h2{
+         font-size: 1.2rem;
+     }
+     .text p{
+         font-size: 1rem;
+     }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }   
+    .social-icon{
+        margin-top:0px;
+        margin: 5px auto;
+
+        text-align: center;
+    }
+    .copyright{
+        margin: 0px auto;
+        text-align: center;
+    }
+    
+}
+@media (max-width:400px){
+
+}
